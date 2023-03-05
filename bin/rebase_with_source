@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e -x
+
+cd "$(dirname "$0")/.."
+
+git remote -v | grep -q "^source " || git remote add source git@github.com:josetapadas/railsban.git
+git pull --rebase source main
