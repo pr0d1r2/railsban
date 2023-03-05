@@ -115,9 +115,3 @@ Lint/ConstantResolution:
 Rails/HasManyOrHasOneDependent:
   Exclude:
     - 'app/models/status.rb'
-
-# Offense count: 6
-Rails/I18nLocaleTexts:
-  Exclude:
-    - 'app/controllers/cards_controller.rb'
-    - 'app/controllers/statuses_controller.rb'
