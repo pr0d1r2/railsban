@@ -12,11 +12,3 @@
 Bundler/GemComment:
   Exclude:
     - 'Gemfile'
-
-# Offense count: 16
-# Configuration parameters: EnforcedStyle, Include, AllowedGems.
-# SupportedStyles: required, forbidden
-# Include: **/*.gemfile, **/Gemfile, **/gems.rb
-Bundler/GemVersion:
-  Exclude:
-    - 'Gemfile'
