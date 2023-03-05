@@ -28,4 +28,5 @@ guard :minitest do
   watch(%r{^test/.+_test\.rb$})
   watch(%r{^test/test_helper\.rb$}) { 'test' }
   watch(%r{^config/routes\.rb$}) { 'test/controllers' }
+  watch('test/application_system_test_case.rb') { 'test/system' }
 end
