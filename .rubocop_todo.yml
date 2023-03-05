@@ -136,7 +136,3 @@ Rails/SchemaComment:
     - 'db/migrate/20230226101541_create_cards.rb'
     - 'db/migrate/20230226104754_create_statuses.rb'
     - 'db/migrate/20230226105240_add_cards_to_status.rb'
-
-# Offense count: 37
-Require/MissingRequireStatement:
-  Enabled: false

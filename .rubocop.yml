@@ -42,3 +42,6 @@ Style/DocumentationMethod:
   Enabled: true
   Exclude:
     - 'db/migrate/*.rb'
+
+Require/MissingRequireStatement:
+  Enabled: false
