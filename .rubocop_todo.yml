@@ -108,10 +108,3 @@ Layout/SpaceInsidePercentLiteralDelimiters:
 # Configuration parameters: Only, Ignore.
 Lint/ConstantResolution:
   Enabled: false
-
-# Offense count: 1
-# Configuration parameters: Include.
-# Include: app/models/**/*.rb
-Rails/HasManyOrHasOneDependent:
-  Exclude:
-    - 'app/models/status.rb'
