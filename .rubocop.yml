@@ -34,3 +34,6 @@ Style/RequireOrder:
   Enabled: true
   Exclude:
     - 'config/boot.rb'
+
+Style/MissingElse:
+  Enabled: false
