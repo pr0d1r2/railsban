@@ -40,7 +40,7 @@ class CardsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should update card' do
-    patch card_url(@card), params: { card: { description: 'New description', name: 'New name'} }
+    patch card_url(@card), params: { card: { description: 'New description', name: 'New name' } }
     assert_redirected_to card_url(@card)
     @card.reload
     assert @card.description, 'New description'
