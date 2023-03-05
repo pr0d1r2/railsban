@@ -2,6 +2,8 @@
 
 require 'test_helper'
 
+require_relative '../../app/controllers/cards_controller'
+
 class CardsControllerTest < ActionDispatch::IntegrationTest
   setup do
     @card = cards(:one)

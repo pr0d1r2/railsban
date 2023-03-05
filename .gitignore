@@ -38,3 +38,4 @@
 .hunspell/
 .yardoc/
 node_modules/
+coverage/

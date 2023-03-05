@@ -15,3 +15,10 @@ module ActiveSupport
     # Add more helper methods to be used by all tests here...
   end
 end
+
+require 'simplecov'
+SimpleCov.start(:rails) do
+  enable_coverage :branch
+  minimum_coverage 44.44
+  add_filter 'test'
+end

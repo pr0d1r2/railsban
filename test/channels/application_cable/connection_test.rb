@@ -2,6 +2,8 @@
 
 require 'test_helper'
 
+require_relative '../../../app/channels/application_cable/connection'
+
 module ApplicationCable
   class ConnectionTest < ActionCable::Connection::TestCase
     # test "connects with cookies" do

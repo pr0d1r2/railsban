@@ -2,6 +2,8 @@
 
 require 'test_helper'
 
+require_relative '../../app/controllers/statuses_controller'
+
 class StatusesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @status = statuses(:one)
