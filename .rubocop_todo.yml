@@ -247,10 +247,3 @@ Style/StringHashKeys:
   Exclude:
     - 'config/environments/development.rb'
     - 'config/environments/test.rb'
-
-# Offense count: 152
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: EnforcedStyle, ConsistentQuotesInMultiline.
-# SupportedStyles: single_quotes, double_quotes
-Style/StringLiterals:
-  Enabled: false

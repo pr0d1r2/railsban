@@ -1,7 +1,7 @@
-require "test_helper"
+require 'test_helper'
 
-require "webdrivers/chromedriver"
-require "support/selenium_support"
+require 'webdrivers/chromedriver'
+require 'support/selenium_support'
 
 class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
   selenium_support = ::SeleniumSupport.new
