@@ -233,10 +233,3 @@ Style/RedundantRegexpEscape:
 Style/RegexpLiteral:
   Exclude:
     - 'Guardfile'
-
-# Offense count: 2
-# This cop supports unsafe autocorrection (--autocorrect-all).
-Style/RequireOrder:
-  Exclude:
-    - 'config/boot.rb'
-    - 'test/application_system_test_case.rb'

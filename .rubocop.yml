@@ -29,3 +29,8 @@ Style/Copyright:
 
 Style/Documentation:
   Enabled: false
+
+Style/RequireOrder:
+  Enabled: true
+  Exclude:
+    - 'config/boot.rb'
