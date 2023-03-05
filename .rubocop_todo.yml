@@ -42,12 +42,3 @@ Layout/EmptyLinesAroundAccessModifier:
   Exclude:
     - 'app/controllers/cards_controller.rb'
     - 'app/controllers/statuses_controller.rb'
-
-# Offense count: 4
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: normal, indented_internal_methods
-Layout/IndentationConsistency:
-  Exclude:
-    - 'app/controllers/cards_controller.rb'
-    - 'app/controllers/statuses_controller.rb'
