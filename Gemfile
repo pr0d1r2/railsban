@@ -56,6 +56,9 @@ group :development, :test do
 end
 
 group :development do
+  gem 'brakeman', '~> 5.4', require: false
+  gem 'bundler-audit', '~> 0.9', require: false
+
   gem 'guard', '~> 2.18', require: false
   gem 'guard-minitest', '~> 2.4', require: false
   gem 'guard-rubocop', '~> 1.5', require: false
@@ -69,6 +72,15 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
+  gem 'image_optim', '~> 0.31', require: false
+  gem 'image_optim_pack', '~> 0.9', require: false
+  gem 'mdl', '~> 0.12', require: false
+
+  gem 'overcommit', '~> 0.60', require: false
+  gem 'rails_best_practices', '~> 1.23'
+
+  gem 'reek', '~> 6.1', require: false
+
   gem 'rubocop', '~> 1.47', require: false
   gem 'rubocop-capybara', '~> 2.17', require: false
   gem 'rubocop-i18n', '~> 3.0', require: false
@@ -77,6 +89,8 @@ group :development do
   gem 'rubocop-rake', '~> 0.6', require: false
   gem 'rubocop-require_tools', '~> 0.1', require: false
   gem 'rubocop-thread_safety', '~> 0.4', require: false
+
+  gem 'yard', '~> 0.9', require: false
 end
 
 group :test do

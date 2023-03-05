@@ -1,0 +1,59 @@
+---
+
+detectors:
+  DuplicateMethodCall:
+    exclude:
+      - CardsController#create
+      - CardsController#update
+      - StatusesController#create
+      - StatusesController#update
+  FeatureEnvy:
+    exclude:
+      - CreateCards#change
+      - CreateStatuses#change
+  InstanceVariableAssumption:
+    exclude:
+      - CardsController
+      - StatusesController
+  IrresponsibleModule:
+    exclude:
+      - ApplicationCable::Channel
+      - ApplicationCable::Connection
+      - ApplicationController
+      - CardsController
+      - HomeController
+      - StatusesController
+      - ApplicationHelper
+      - ApplicationJob
+      - ApplicationMailer
+      - ApplicationRecord
+      - Card
+      - Status
+      - ApplicationSystemTestCase
+      - ApplicationCable::ConnectionTest
+      - CardsControllerTest
+      - HomeControllerTest
+      - StatusesControllerTest
+      - CardTest
+      - StatusTest
+      - CardsTest
+      - HomeTest
+      - StatusesTest
+      - ActiveSupport::TestCase
+      - Railsban::Application
+      - CreateCards
+      - CreateStatuses
+      - AddCardsToStatus
+  TooManyStatements:
+    exclude:
+      - initialize
+      - CardsController#create
+      - CardsController#destroy
+      - CardsController#update
+      - StatusesController#create
+      - StatusesController#destroy
+      - StatusesController#update
+  UncommunicativeVariableName:
+    exclude:
+      - CreateCards#change
+      - CreateStatuses#change
