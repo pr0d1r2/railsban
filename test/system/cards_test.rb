@@ -10,6 +10,11 @@ class CardsTest < ApplicationSystemTestCase
   test 'visiting the index' do
     visit cards_url
     assert_selector 'h1', text: 'Cards'
+    assert_text 'CardOne'
+    assert_link 'Show this card', href: card_url(@card, only_path: true)
+    assert_text 'CardTwo'
+    assert_link 'Show this card', href: card_url(cards(:two), only_path: true)
+    assert_link 'New card', href: new_card_url(only_path: true)
   end
 
   test 'should create card' do
