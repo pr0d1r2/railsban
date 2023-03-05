@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "csslint": "^1.0.5",
+    "eslint": "^8.30.0",
+    "standard": "^17.0.0",
+    "stylelint": "^14.16.0"
+  }
+}
