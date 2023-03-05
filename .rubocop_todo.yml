@@ -20,10 +20,3 @@ Bundler/GemComment:
 Bundler/GemVersion:
   Exclude:
     - 'Gemfile'
-
-# Offense count: 6
-# This cop supports safe autocorrection (--autocorrect).
-I18n/GetText/DecorateString:
-  Exclude:
-    - 'app/controllers/cards_controller.rb'
-    - 'app/controllers/statuses_controller.rb'
