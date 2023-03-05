@@ -89,6 +89,7 @@ PreCommit:
     exclude:
       - 'doc/**/*.css'
       - 'app/assets/stylesheets/application.tailwind.css'
+    flags: ['--quiet', '--format=compact', '--ignore=known-properties']
   ErbLint:
     enabled: true
   EsLint:
