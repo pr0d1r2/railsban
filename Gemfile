@@ -102,7 +102,11 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara', '~> 3.38', require: false
   gem 'selenium-webdriver', '~> 4.8', require: false
+  gem 'shoulda', '~> 2.11', require: false
+  gem 'shoulda-context', '~> 2.0', require: false
+  gem 'shoulda-matchers', '~> 5.0', require: false
   gem 'simplecov', '~> 0.21', require: false
+  gem 'test-unit', '~> 3.5', require: false
   gem 'webdrivers', '~> 5.2', require: false
 end
 

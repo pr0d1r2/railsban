@@ -110,3 +110,6 @@ Dictionaries:
       - YAML
       - UAT
       - cancelled
+      - shoulda
+      - matchers
+      - minitest
