@@ -20,7 +20,7 @@ class CardsTest < ApplicationSystemTestCase
     fill_in 'Name', with: @card.name
     click_on 'Create Card'
 
-    assert_text 'Card was successfully created'
+    assert_text 'Card was successfully created.'
     click_on 'Back'
   end
 
@@ -32,7 +32,7 @@ class CardsTest < ApplicationSystemTestCase
     fill_in 'Name', with: @card.name
     click_on 'Update Card'
 
-    assert_text 'Card was successfully updated'
+    assert_text 'Card was successfully updated.'
     click_on 'Back'
   end
 
@@ -40,6 +40,6 @@ class CardsTest < ApplicationSystemTestCase
     visit card_url(@card)
     click_on 'Destroy this card', match: :first
 
-    assert_text 'Card was successfully destroyed'
+    assert_text 'Card was successfully destroyed.'
   end
 end

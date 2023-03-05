@@ -19,7 +19,7 @@ class StatusesTest < ApplicationSystemTestCase
     fill_in 'Name', with: @status.name
     click_on 'Create Status'
 
-    assert_text 'Status was successfully created'
+    assert_text 'Status was successfully created.'
     click_on 'Back'
   end
 
@@ -30,7 +30,7 @@ class StatusesTest < ApplicationSystemTestCase
     fill_in 'Name', with: @status.name
     click_on 'Update Status'
 
-    assert_text 'Status was successfully updated'
+    assert_text 'Status was successfully updated.'
     click_on 'Back'
   end
 
@@ -38,6 +38,6 @@ class StatusesTest < ApplicationSystemTestCase
     visit status_url(@status)
     click_on 'Destroy this status', match: :first
 
-    assert_text 'Status was successfully destroyed'
+    assert_text 'Status was successfully destroyed.'
   end
 end
