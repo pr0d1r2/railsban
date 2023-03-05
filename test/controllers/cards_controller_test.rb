@@ -2,6 +2,7 @@ require "test_helper"
 
 class CardsControllerTest < ActionDispatch::IntegrationTest
   setup do
+    @status = statuses(:one)
     @card = cards(:one)
   end
 
@@ -17,7 +18,7 @@ class CardsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create card" do
     assert_difference("Card.count") do
-      post cards_url, params: { card: { description: @card.description, name: @card.name } }
+      post cards_url, params: { card: { description: @card.description, name: @card.name, status_id: @status.id } }
     end
 
     assert_redirected_to card_url(Card.last)
