@@ -194,6 +194,9 @@ PrePush:
     enabled: true
   Minitest:
     enabled: true
+    env:
+      COVERAGE: 'true'
+      CI: 'true'
 
 PreRebase:
   ALL:
