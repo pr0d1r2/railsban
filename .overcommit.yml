@@ -142,7 +142,7 @@ PreCommit:
   MergeConflicts:
     enabled: true
   RailsBestPractices:
-    enabled: false
+    enabled: true
     command: ['bundle', 'exec', 'rails_best_practices', '--config', 'config/rails_best_practices.yml']
   RailsSchemaUpToDate:
     enabled: true
