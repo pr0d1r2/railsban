@@ -58,3 +58,6 @@ I18n/RailsI18n/DecorateString:
   Enabled: true
   Exclude:
     - 'test/**/*_test.rb'
+
+Lint/ConstantResolution:
+  Enabled: false
