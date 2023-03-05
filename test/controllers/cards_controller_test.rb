@@ -31,6 +31,12 @@ class CardsControllerTest < ActionDispatch::IntegrationTest
     assert card.name, name
   end
 
+  test 'should return error with empty name on create' do
+    status = statuses(:one)
+    post cards_url, params: { card: { description: 'New description', name: '', status_id: status.id } }
+    assert_response :unprocessable_entity
+  end
+
   test 'should show card' do
     get card_url(@card)
     assert_response :success
@@ -47,6 +53,11 @@ class CardsControllerTest < ActionDispatch::IntegrationTest
     @card.reload
     assert @card.description, 'New description'
     assert @card.name, name
+  end
+
+  test 'should return error with empty name on update' do
+    patch card_url(@card), params: { card: { description: 'New description', name: '' } }
+    assert_response :unprocessable_entity
   end
 
   test 'should destroy card' do

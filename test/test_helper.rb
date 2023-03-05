@@ -4,7 +4,7 @@ if ENV.fetch('COVERAGE') { false }
   require 'simplecov'
   SimpleCov.start(:rails) do
     enable_coverage :branch
-    minimum_coverage 52.63
+    minimum_coverage 53.12
     add_filter 'test'
   end
 end
