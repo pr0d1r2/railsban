@@ -108,3 +108,5 @@ Dictionaries:
       - parallelize
       - renderer
       - YAML
+      - UAT
+      - cancelled
