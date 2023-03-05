@@ -47,9 +47,6 @@ detectors:
   TooManyStatements:
     exclude:
       - initialize
-      - CardsController#create
-      - CardsController#destroy
-      - CardsController#update
   UncommunicativeVariableName:
     exclude:
       - CreateCards#change
