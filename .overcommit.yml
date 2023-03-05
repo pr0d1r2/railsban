@@ -84,7 +84,7 @@ PreCommit:
     enabled: true
     command: ['bundle', 'exec', 'alfonsox']
   CssLint:
-    enabled: false
+    enabled: true
     required_executable: 'node_modules/.bin/csslint'
     exclude:
       - 'doc/**/*.css'
@@ -92,7 +92,7 @@ PreCommit:
   ErbLint:
     enabled: true
   EsLint:
-    enabled: false
+    enabled: true
     required_executable: 'node_modules/.bin/eslint'
     command: ['node_modules/.bin/eslint', '--config', '.eslintrc.js']
   Fasterer:
@@ -165,12 +165,12 @@ PreCommit:
       - bin/rake
       - bin/setup
   Standard:
-    enabled: false
+    enabled: true
     required_executable: 'node_modules/.bin/standard'
     exclude:
       - 'doc/**/*.js'
   Stylelint:
-    enabled: false
+    enabled: true
     required_executable: 'node_modules/.bin/stylelint'
   TrailingWhitespace:
     enabled: true
