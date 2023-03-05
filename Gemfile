@@ -56,6 +56,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'alfonsox', '~> 0.2', require: false
+
   gem 'brakeman', '~> 5.4', require: false
   gem 'bundler-audit', '~> 0.9', require: false
 

@@ -81,7 +81,7 @@ PreCommit:
   CaseConflicts:
     enabled: true
   CodeSpellCheck:
-    enabled: false
+    enabled: true
     command: ['bundle', 'exec', 'alfonsox']
   CssLint:
     enabled: false

@@ -68,6 +68,9 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    alfonsox (0.2.8)
+      hunspell (~> 1.1, >= 1.1.0)
+      nokogiri (~> 1.8, >= 1.8.5)
     ast (2.4.2)
     bindex (0.8.1)
     bootsnap (1.16.0)
@@ -122,6 +125,7 @@ GEM
     guard-rubocop (1.5.0)
       guard (~> 2.0)
       rubocop (< 2.0)
+    hunspell (1.1.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     image_optim (0.31.3)
@@ -352,6 +356,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  alfonsox (~> 0.2)
   bootsnap (~> 1.16)
   brakeman (~> 5.4)
   bundler-audit (~> 0.9)
