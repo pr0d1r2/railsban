@@ -106,3 +106,4 @@ Dictionaries:
       - boolean
       - href
       - parallelize
+      - renderer
