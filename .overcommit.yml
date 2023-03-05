@@ -132,9 +132,8 @@ PreCommit:
       - '.yardoc/objects/root.dat'
       - 'db/graph.pdf'
       - 'vendor/gems/**/*.gem'
-  # ISSUE: disable until rspec-specification-coverage gem released (not using vendor/gems)
   LocalPathsInGemfile:
-    enabled: false
+    enabled: true
   Mdl:
     enabled: true
     command: ['bundle', 'exec', 'mdl']
