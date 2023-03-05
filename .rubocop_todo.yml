@@ -95,11 +95,3 @@ Layout/SpaceInsideArrayLiteralBrackets:
 Layout/SpaceInsideHashLiteralBraces:
   Exclude:
     - 'test/controllers/cards_controller_test.rb'
-
-# Offense count: 8
-# This cop supports safe autocorrection (--autocorrect).
-Layout/SpaceInsidePercentLiteralDelimiters:
-  Exclude:
-    - 'Gemfile'
-    - 'app/controllers/cards_controller.rb'
-    - 'app/controllers/statuses_controller.rb'

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class StatusesController < ApplicationController
-  before_action :set_status, only: %i[ show edit update destroy ]
+  before_action :set_status, only: %i[show edit update destroy]
 
   # GET /statuses or /statuses.json
   def index
