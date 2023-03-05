@@ -205,7 +205,7 @@ GEM
       tomlrb
     mixlib-shellout (3.2.7)
       chef-utils
-    msgpack (1.6.0)
+    msgpack (1.6.1)
     nenv (0.3.0)
     net-imap (0.3.4)
       date
