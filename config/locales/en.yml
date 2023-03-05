@@ -31,3 +31,19 @@
 
 en:
   hello: "Hello world"
+
+  cards:
+    create:
+      notice: 'Card was successfully created.'
+    update:
+      notice: 'Card was successfully updated.'
+    destroy:
+      notice: 'Card was successfully destroyed.'
+
+  statuses:
+    create:
+      notice: 'Status was successfully created.'
+    update:
+      notice: 'Status was successfully updated.'
+    destroy:
+      notice: 'Status was successfully destroyed.'

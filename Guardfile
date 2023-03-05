@@ -36,4 +36,5 @@ end
 guard :rubocop, cli: '--display-cop-names --parallel' do
   watch(/.+\.rb$/)
   watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
+  watch('config/locales/en.yml') { 'app' }
 end

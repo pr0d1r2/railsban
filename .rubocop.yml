@@ -48,3 +48,13 @@ Require/MissingRequireStatement:
 
 Rails/SchemaComment:
   Enabled: false
+
+I18n/GetText/DecorateString:
+  Enabled: true
+  Exclude:
+    - 'test/**/*_test.rb'
+
+I18n/RailsI18n/DecorateString:
+  Enabled: true
+  Exclude:
+    - 'test/**/*_test.rb'
