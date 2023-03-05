@@ -45,3 +45,6 @@ Style/DocumentationMethod:
 
 Require/MissingRequireStatement:
   Enabled: false
+
+Rails/SchemaComment:
+  Enabled: false

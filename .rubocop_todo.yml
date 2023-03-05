@@ -129,10 +129,3 @@ Rails/SaveBang:
   Exclude:
     - 'app/controllers/cards_controller.rb'
     - 'app/controllers/statuses_controller.rb'
-
-# Offense count: 3
-Rails/SchemaComment:
-  Exclude:
-    - 'db/migrate/20230226101541_create_cards.rb'
-    - 'db/migrate/20230226104754_create_statuses.rb'
-    - 'db/migrate/20230226105240_add_cards_to_status.rb'
