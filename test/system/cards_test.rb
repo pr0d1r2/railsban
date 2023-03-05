@@ -22,6 +22,7 @@ class CardsTest < ApplicationSystemTestCase
 
     assert_text 'Card was successfully created.'
     click_on 'Back'
+    assert_selector 'h1', text: 'Railsban'
   end
 
   test 'should update Card' do
@@ -34,6 +35,7 @@ class CardsTest < ApplicationSystemTestCase
 
     assert_text 'Card was successfully updated.'
     click_on 'Back'
+    assert_selector 'h1', text: 'Railsban'
   end
 
   test 'should destroy Card' do

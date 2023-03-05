@@ -26,6 +26,7 @@ class StatusesTest < ApplicationSystemTestCase
 
     assert_text 'Status was successfully created.'
     click_on 'Back'
+    assert_selector 'h1', text: 'Statuses'
   end
 
   test 'should update Status' do
@@ -37,6 +38,7 @@ class StatusesTest < ApplicationSystemTestCase
 
     assert_text 'Status was successfully updated.'
     click_on 'Back'
+    assert_selector 'h1', text: 'Statuses'
   end
 
   test 'should destroy Status' do
