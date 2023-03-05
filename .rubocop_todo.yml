@@ -240,10 +240,3 @@ Style/RequireOrder:
   Exclude:
     - 'config/boot.rb'
     - 'test/application_system_test_case.rb'
-
-# Offense count: 2
-# This cop supports unsafe autocorrection (--autocorrect-all).
-Style/StringHashKeys:
-  Exclude:
-    - 'config/environments/development.rb'
-    - 'config/environments/test.rb'
