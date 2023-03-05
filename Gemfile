@@ -62,6 +62,7 @@ group :development do
   gem 'bundler-audit', '~> 0.9', require: false
 
   gem 'erb_lint', '~> 0.3', require: false
+  gem 'fasterer', '~> 0.10', require: false
 
   gem 'guard', '~> 2.18', require: false
   gem 'guard-minitest', '~> 2.4', require: false
