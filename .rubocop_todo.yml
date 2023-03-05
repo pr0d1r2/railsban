@@ -149,12 +149,3 @@ Style/ClassAndModuleChildren:
   Exclude:
     - 'test/channels/application_cable/connection_test.rb'
     - 'test/test_helper.rb'
-
-# Offense count: 4
-# Configuration parameters: RequireForNonPublicMethods.
-Style/DocumentationMethod:
-  Exclude:
-    - 'app/controllers/home_controller.rb'
-    - 'db/migrate/20230226101541_create_cards.rb'
-    - 'db/migrate/20230226104754_create_statuses.rb'
-    - 'db/migrate/20230226105240_add_cards_to_status.rb'

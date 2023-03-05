@@ -37,3 +37,8 @@ Style/RequireOrder:
 
 Style/MissingElse:
   Enabled: false
+
+Style/DocumentationMethod:
+  Enabled: true
+  Exclude:
+    - 'db/migrate/*.rb'
