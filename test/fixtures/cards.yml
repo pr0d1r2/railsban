@@ -1,9 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
+  id: 1
+  status_id: 1
+  name: CardOne
+  description: First card
 
 two:
-  name: MyString
-  description: MyText
+  id: 2
+  status_id: 2
+  name: CardTwo
+  description: Second card
