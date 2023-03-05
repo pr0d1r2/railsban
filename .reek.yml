@@ -50,9 +50,6 @@ detectors:
       - CardsController#create
       - CardsController#destroy
       - CardsController#update
-      - StatusesController#create
-      - StatusesController#destroy
-      - StatusesController#update
   UncommunicativeVariableName:
     exclude:
       - CreateCards#change
