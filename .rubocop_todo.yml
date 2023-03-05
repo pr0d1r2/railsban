@@ -180,8 +180,3 @@ Style/FrozenStringLiteralComment:
 Style/GlobalStdStream:
   Exclude:
     - 'config/environments/production.rb'
-
-# Offense count: 2
-Style/InlineComment:
-  Exclude:
-    - 'config/boot.rb'
