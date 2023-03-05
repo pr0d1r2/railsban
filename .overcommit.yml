@@ -178,7 +178,7 @@ PreCommit:
       - 'doc/**/*.html'
       - 'doc/**/*.js'
   YamlLint:
-    enabled: false
+    enabled: true
   YamlSyntax:
     enabled: true
   YardCoverage:
