@@ -212,10 +212,3 @@ Style/MethodCallWithArgsParentheses:
 Style/MissingElse:
   Exclude:
     - 'config/environments/production.rb'
-
-# Offense count: 2
-# This cop supports unsafe autocorrection (--autocorrect-all).
-# Configuration parameters: SafeForConstants.
-Style/RedundantFetchBlock:
-  Exclude:
-    - 'config/puma.rb'
