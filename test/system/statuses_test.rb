@@ -10,6 +10,11 @@ class StatusesTest < ApplicationSystemTestCase
   test 'visiting the index' do
     visit statuses_url
     assert_selector 'h1', text: 'Statuses'
+    assert_text 'StatusOne'
+    assert_link 'Show this status', href: status_url(@status, only_path: true)
+    assert_text 'StatusTwo'
+    assert_link 'Show this status', href: status_url(statuses(:two), only_path: true)
+    assert_link 'New status', href: new_status_url(only_path: true)
   end
 
   test 'should create status' do
