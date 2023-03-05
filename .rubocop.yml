@@ -67,3 +67,6 @@ Layout/RedundantLineBreak:
   Exclude:
     - 'config/environments/*.rb'
     - 'config/initializers/*.rb'
+
+Bundler/GemComment:
+  Enabled: false
