@@ -9,8 +9,7 @@ class StatusesController < ApplicationController
   end
 
   # GET /statuses/1 or /statuses/1.json
-  def show
-  end
+  def show; end
 
   # GET /statuses/new
   def new
@@ -18,8 +17,7 @@ class StatusesController < ApplicationController
   end
 
   # GET /statuses/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /statuses or /statuses.json
   def create
