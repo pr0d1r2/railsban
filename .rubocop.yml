@@ -70,3 +70,6 @@ Layout/RedundantLineBreak:
 
 Bundler/GemComment:
   Enabled: false
+
+Style/RedundantFetchBlock:
+  Enabled: false
