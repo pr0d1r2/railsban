@@ -30,3 +30,8 @@ guard :minitest do
   watch(%r{^config/routes\.rb$}) { 'test/controllers' }
   watch('test/application_system_test_case.rb') { 'test/system' }
 end
+
+guard :rubocop, cli: '--display-cop-names --parallel' do
+  watch(%r{.+\.rb$})
+  watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
+end

@@ -56,6 +56,7 @@ end
 group :development do
   gem 'guard', require: false
   gem 'guard-minitest', require: false
+  gem 'guard-rubocop', require: false
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
@@ -65,6 +66,15 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem 'rubocop', '~> 1.47', require: false
+  gem 'rubocop-capybara', '~> 2.17', require: false
+  gem 'rubocop-i18n', '~> 3.0', require: false
+  gem 'rubocop-performance', '~> 1.16', require: false
+  gem 'rubocop-rails', '~> 2.18', require: false
+  gem 'rubocop-rake', '~> 0.6', require: false
+  gem 'rubocop-require_tools', '~> 0.1', require: false
+  gem 'rubocop-thread_safety', '~> 0.4', require: false
 end
 
 group :test do

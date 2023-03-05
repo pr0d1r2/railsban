@@ -1,0 +1,31 @@
+---
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  NewCops: enable
+  UseCache: true
+  SuggestExtensions: true
+  EnabledByDefault: true
+  ActiveSupportExtensionsEnabled: true
+  TargetRubyVersion: 3.0.4
+  TargetRailsVersion: 7.0.4.2
+
+require:
+  - rubocop-rails
+  - rubocop-capybara
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-thread_safety
+  - rubocop-i18n
+  - rubocop-require_tools
+
+Layout/LineLength:
+  Enabled: true
+  Max: 122
+
+Style/Copyright:
+  Enabled: false
+  AutocorrectNotice: ''
+
+Style/Documentation:
+  Enabled: false
