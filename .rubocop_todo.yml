@@ -185,22 +185,3 @@ Style/GlobalStdStream:
 Style/InlineComment:
   Exclude:
     - 'config/boot.rb'
-
-# Offense count: 36
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: IgnoreMacros, AllowedMethods, AllowedPatterns, IncludedMacros, AllowParenthesesInMultilineCall, AllowParenthesesInChaining, AllowParenthesesInCamelCaseMethod, AllowParenthesesInStringInterpolation, EnforcedStyle.
-# SupportedStyles: require_parentheses, omit_parentheses
-Style/MethodCallWithArgsParentheses:
-  Exclude:
-    - 'app/controllers/cards_controller.rb'
-    - 'app/controllers/statuses_controller.rb'
-    - 'app/views/cards/_card.json.jbuilder'
-    - 'app/views/cards/index.json.jbuilder'
-    - 'app/views/cards/show.json.jbuilder'
-    - 'app/views/statuses/_status.json.jbuilder'
-    - 'app/views/statuses/index.json.jbuilder'
-    - 'app/views/statuses/show.json.jbuilder'
-    - 'config/application.rb'
-    - 'db/migrate/20230226101541_create_cards.rb'
-    - 'db/migrate/20230226104754_create_statuses.rb'
-    - 'db/migrate/20230226105240_add_cards_to_status.rb'
