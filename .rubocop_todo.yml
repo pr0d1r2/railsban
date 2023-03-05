@@ -121,11 +121,3 @@ Rails/I18nLocaleTexts:
   Exclude:
     - 'app/controllers/cards_controller.rb'
     - 'app/controllers/statuses_controller.rb'
-
-# Offense count: 2
-# This cop supports unsafe autocorrection (--autocorrect-all).
-# Configuration parameters: AllowImplicitReturn, AllowedReceivers.
-Rails/SaveBang:
-  Exclude:
-    - 'app/controllers/cards_controller.rb'
-    - 'app/controllers/statuses_controller.rb'
