@@ -11,9 +11,9 @@ class StatusesTest < ApplicationSystemTestCase
     visit statuses_url
     assert_selector 'h1', text: 'Statuses'
     assert_text 'StatusOne'
-    assert_link 'Show this status', href: status_url(@status, only_path: true)
+    assert_link 'Show this status', href: target_status_url(@status)
     assert_text 'StatusTwo'
-    assert_link 'Show this status', href: status_url(statuses(:two), only_path: true)
+    assert_link 'Show this status', href: target_status_url(statuses(:two))
     assert_link 'New status', href: new_status_url(only_path: true)
   end
 
@@ -44,5 +44,10 @@ class StatusesTest < ApplicationSystemTestCase
     click_on 'Destroy this status', match: :first
 
     assert_text 'Status was successfully destroyed.'
+  end
+
+  # Only path gets rendered in links.
+  def target_status_url(status)
+    status_url(status, only_path: true)
   end
 end
