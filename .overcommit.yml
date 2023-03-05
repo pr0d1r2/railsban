@@ -72,7 +72,7 @@ PreCommit:
   BrokenSymlinks:
     enabled: true
   BundleAudit:
-    enabled: false
+    enabled: true
   BundleCheck:
     enabled: true
   BundleOutdated:
