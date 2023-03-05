@@ -61,3 +61,9 @@ I18n/RailsI18n/DecorateString:
 
 Lint/ConstantResolution:
   Enabled: false
+
+Layout/RedundantLineBreak:
+  Enabled: true
+  Exclude:
+    - 'config/environments/*.rb'
+    - 'config/initializers/*.rb'
