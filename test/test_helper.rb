@@ -16,9 +16,11 @@ module ActiveSupport
   end
 end
 
-require 'simplecov'
-SimpleCov.start(:rails) do
-  enable_coverage :branch
-  minimum_coverage 44.44
-  add_filter 'test'
+if ENV.fetch('COVERAGE') { false }
+  require 'simplecov'
+  SimpleCov.start(:rails) do
+    enable_coverage :branch
+    minimum_coverage 44.44
+    add_filter 'test'
+  end
 end
