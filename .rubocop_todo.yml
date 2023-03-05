@@ -219,9 +219,3 @@ Style/MissingElse:
 Style/RedundantFetchBlock:
   Exclude:
     - 'config/puma.rb'
-
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
-Style/RedundantRegexpEscape:
-  Exclude:
-    - 'Guardfile'
