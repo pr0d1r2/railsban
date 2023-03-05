@@ -61,6 +61,8 @@ group :development do
   gem 'brakeman', '~> 5.4', require: false
   gem 'bundler-audit', '~> 0.9', require: false
 
+  gem 'erb_lint', '~> 0.3', require: false
+
   gem 'guard', '~> 2.18', require: false
   gem 'guard-minitest', '~> 2.4', require: false
   gem 'guard-rubocop', '~> 1.5', require: false
@@ -105,3 +107,5 @@ end
 group :production do
   gem 'pg', '~> 1.4', require: false
 end
+
+gem 'better_html', '~> 2.0', require: false
