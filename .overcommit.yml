@@ -90,7 +90,7 @@ PreCommit:
       - 'doc/**/*.css'
       - 'app/assets/stylesheets/application.tailwind.css'
   ErbLint:
-    enabled: false
+    enabled: true
   EsLint:
     enabled: false
     required_executable: 'node_modules/.bin/eslint'
